@@ -43,6 +43,45 @@ footer { background:#333; color:#fff; text-align:center; padding:20px; }
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
+
+.services-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:20px;
+}
+
+.card {
+  background:#fff;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:translateY(-6px);
+}
+
+.card img {
+  width:100%;
+  height:160px;
+  object-fit:cover;
+}
+
+.card-content {
+  padding:15px;
+}
+
+.read-btn {
+  display:inline-block;
+  margin-top:10px;
+  padding:8px 15px;
+  background:#27ae60;
+  color:#fff;
+  border-radius:20px;
+  text-decoration:none;
+}
+
 </style>
 </head>
 
@@ -79,15 +118,95 @@ Pest control services can be provided by any company but what makes our company 
 </section>
 
 <section id="services">
-<h2>Our Services</h2>
-<div class="services">
-<div class="card"><h3>Termite Control</h3><p>Drilling & injection treatment with long-term protection.</p></div>
-<div class="card"><h3>Cockroach Control</h3><p>Odourless gel treatment safe for kitchen use.</p></div>
-<div class="card"><h3>Rodent Control</h3><p>Complete rat & mouse elimination solutions.</p></div>
-<div class="card"><h3>Mosquito Control</h3><p>Fogging & anti-mosquito treatment.</p></div>
-<div class="card"><h3>Bed Bug Control</h3><p>Advanced treatment for complete bed bug removal.</p></div>
-<div class="card"><h3>General Pest Control</h3><p>Comprehensive pest protection for homes & offices.</p></div>
+<section id="services">
+<h2>Our Pest Control Services in Delhi NCR</h2>
+
+<!-- RESIDENTIAL -->
+<h3 style="margin-top:30px;">Residential Pest Control</h3>
+
+<div class="services-grid">
+
+<div class="card">
+<img src="/images/services/termite-control-delhi.jpg" alt="Termite Control in Delhi">
+<div class="card-content">
+<h3>Termite Control</h3>
+<p>Long-lasting anti-termite treatment for complete protection.</p>
+<a href="/termite-control-delhi/" class="read-btn">Read More</a>
 </div>
+</div>
+
+<div class="card">
+<img src="/images/services/cockroach-control-delhi.jpg" alt="Cockroach Control in Delhi">
+<div class="card-content">
+<h3>Cockroach Control</h3>
+<p>Odorless gel treatment safe for kitchen & home.</p>
+<a href="/cockroach-control-delhi/" class="read-btn">Read More</a>
+</div>
+</div>
+
+<div class="card">
+<img src="/images/services/bedbug-treatment-delhi.jpg" alt="Bed Bug Treatment in Delhi">
+<div class="card-content">
+<h3>Bed Bug Treatment</h3>
+<p>Complete removal from mattresses & furniture.</p>
+<a href="/bedbug-treatment-delhi/" class="read-btn">Read More</a>
+</div>
+</div>
+
+<div class="card">
+<img src="/images/services/rodent-control-delhi.jpg" alt="Rodent Control in Delhi">
+<div class="card-content">
+<h3>Rodent Control</h3>
+<p>Effective rat & mouse elimination solutions.</p>
+<a href="/rodent-control-delhi/" class="read-btn">Read More</a>
+</div>
+</div>
+
+<div class="card">
+<img src="/images/services/mosquito-control-delhi.jpg" alt="Mosquito Control in Delhi">
+<div class="card-content">
+<h3>Mosquito Control</h3>
+<p>Protect your family from dengue & malaria.</p>
+<a href="/mosquito-control-delhi/" class="read-btn">Read More</a>
+</div>
+</div>
+
+</div>
+
+<!-- COMMERCIAL -->
+<h3 style="margin-top:50px;">Commercial Pest Control</h3>
+
+<div class="services-grid">
+
+<div class="card">
+<img src="/images/services/office-pest-control-delhi.jpg" alt="Office Pest Control in Delhi" loading="lazy">
+<div class="card-content">
+<h3>Office Pest Control</h3>
+<p>Keep your workplace pest-free and hygienic.</p>
+<a href="/office-pest-control-delhi/" class="read-btn">Read More</a>
+</div>
+</div>
+
+<div class="card">
+<img src="/images/services/restaurant-pest-control-delhi.jpg" alt="Restaurant Pest Control in Delhi" loading="lazy">
+<div class="card-content">
+<h3>Restaurant Pest Control</h3>
+<p>Ensure food safety and hygiene compliance.</p>
+<a href="/restaurant-pest-control-delhi/" class="read-btn">Read More</a>
+</div>
+</div>
+
+<div class="card">
+<img src="/images/services/warehouse-pest-control-delhi.jpg" alt="Warehouse Pest Control in Delhi" loading="lazy">
+<div class="card-content">
+<h3>Warehouse Pest Control</h3>
+<p>Protect inventory with industrial solutions.</p>
+<a href="/warehouse-pest-control-delhi/" class="read-btn">Read More</a>
+</div>
+</div>
+
+</div>
+
 </section>
 
 <section id="why" class="why">
